@@ -43,7 +43,7 @@ class InstagramDMItem extends Component {
           if(!this.isMessageOnlyEmojis(this.props.message.text))
             return ( // message is not all emojis
               <div className={'messageItem'} onClick={() => {
-                this.setState({showDateTime: true})
+                this.setState({showDateTime: !this.state.showDateTime})
               }}>
                 <div className={this.props.message.sender == this.props.loggedInAs ? 'messageRight' : 'messageLeft'}>
                   <div className={'messageText'}>
@@ -59,9 +59,9 @@ class InstagramDMItem extends Component {
           else
             return ( // message is only emojis, so show in larger font
               <div className={'messageItem'} onClick={() => {
-                this.setState({showDateTime: true})
+                this.setState({showDateTime: !this.state.showDateTime})
               }}>
-                <div className={this.props.message.sender == this.props.loggedInAs ? 'messageRight' : 'messageLeft'}>
+                <div className={this.props.message.sender == this.props.loggedInAs ? 'messageRightEmoji' : 'messageLeftEmoji'}>
                   <div className={'messageTextBigEmojis'}>
                     {this.props.message.text}
                   </div>
@@ -75,7 +75,7 @@ class InstagramDMItem extends Component {
         } else if (this.props.message.media != undefined) {
           return (
             <div className={'messageItem'} onClick={() => {
-              this.setState({showDateTime: true})
+              this.setState({showDateTime: !this.state.showDateTime})
             }}>
               <div className={this.props.message.sender == this.props.loggedInAs ? 'messageRight' : 'messageLeft'}>
                 <img className={'media'} src={this.props.message.media} />
