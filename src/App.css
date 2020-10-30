@@ -1,11 +1,12 @@
 .App {
   width: 100%;
   height: 100%;
+  min-height: 100%;
   display: flex;
+  /* flex: 1; */
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-bottom: 50px;
 }
 
 .App-logo {
@@ -47,10 +48,9 @@
   width: 100%;
   height: 100%;
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
 }
 
 .CellsContainer {
@@ -98,4 +98,94 @@
 .Cross {
   width: 20px;
   height: 20px;
+}
+
+
+
+/* Aaddya */
+
+.Aaddya {
+  background-color: #111;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: 1;
+}
+
+.loginFormContainer {
+  width: 100%;
+  height: 100%;
+  /* min-height: 1000px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 400px;
+  z-index: 10;
+}
+
+.loginFormImage {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 75px;
+  margin: 20px auto;
+}
+
+.loginFormInput {
+  width: 90%;
+  padding: 15px 15px;
+  height: 30px;
+  border-radius: 30px;
+  margin: auto;
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #555;
+  font-size: 16px;
+  margin: 10px auto;
+}
+
+.loginFormButton {
+  width: 100%;
+  padding: 15px 20px;
+  height: 60px;
+  border-radius: 30px;
+  margin: auto;
+  background-color: rgb(0, 119, 197);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginBackgroundImageContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.08; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.loginBackgroundImage {
+  /* position: absolute; */
+  /* margin: auto; */
+  width: 100%;
+  max-width: 600px;
+  object-fit: contain;
+  opacity: 0.08;
 }
