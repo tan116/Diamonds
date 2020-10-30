@@ -1,0 +1,28 @@
+{
+   "participants":[
+      "aaddyakunchal",
+      "tanaysharda"
+   ],
+   "conversation":[
+      {
+         "sender":"tanaysharda",
+         "created_at":"2020-10-19T15:12:02.838540+00:00",
+         "text":"Hii babypie"
+      },
+      {
+         "sender":"aaddyakunchal",
+         "created_at":"2020-10-19T15:11:18.733153+00:00",
+         "text":"Hiiii cutie"
+      },
+      {
+         "sender":"tanaysharda",
+         "created_at":"2020-10-18T12:32:08.602679+00:00",
+         "text":"Oh fuck yeah"
+      },
+      {
+         "sender":"aaddyakunchal",
+         "created_at":"2020-10-18T12:30:50.107472+00:00",
+         "text":"Babe we can’t talk on WhatsApp if you don’t get notifications na"
+      }
+   ]
+}
