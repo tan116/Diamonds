@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Diamonds/static/css/main.10b9de39.chunk.css",
+    "main.js": "/Diamonds/static/js/main.575b950d.chunk.js",
+    "main.js.map": "/Diamonds/static/js/main.575b950d.chunk.js.map",
+    "runtime-main.js": "/Diamonds/static/js/runtime-main.f7c14b29.js",
+    "runtime-main.js.map": "/Diamonds/static/js/runtime-main.f7c14b29.js.map",
+    "static/js/2.465310e4.chunk.js": "/Diamonds/static/js/2.465310e4.chunk.js",
+    "static/js/2.465310e4.chunk.js.map": "/Diamonds/static/js/2.465310e4.chunk.js.map",
+    "index.html": "/Diamonds/index.html",
+    "precache-manifest.95061c65cc22df13551e8539f132e24a.js": "/Diamonds/precache-manifest.95061c65cc22df13551e8539f132e24a.js",
+    "service-worker.js": "/Diamonds/service-worker.js",
+    "static/css/main.10b9de39.chunk.css.map": "/Diamonds/static/css/main.10b9de39.chunk.css.map",
+    "static/js/2.465310e4.chunk.js.LICENSE.txt": "/Diamonds/static/js/2.465310e4.chunk.js.LICENSE.txt",
+    "static/media/40173EAC-4A28-4FA3-B2B5-6B6E9B1EB361.JPG": "/Diamonds/static/media/40173EAC-4A28-4FA3-B2B5-6B6E9B1EB361.3e494450.JPG",
+    "static/media/IMG_0486.JPG": "/Diamonds/static/media/IMG_0486.1b5ccce9.JPG",
+    "static/media/diamond.png": "/Diamonds/static/media/diamond.61aacd48.png",
+    "static/media/logo.svg": "/Diamonds/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7c14b29.js",
+    "static/js/2.465310e4.chunk.js",
+    "static/css/main.10b9de39.chunk.css",
+    "static/js/main.575b950d.chunk.js"
+  ]
+}
