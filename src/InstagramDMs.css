@@ -1,4 +1,46 @@
 
+.InstagramDMListContainer {
+  display: flex;
+  flex-direction: column;
+  /* flex: 1; */
+}
+
+.InstagramDMListButtonActive {
+  width: 100%;
+  max-width: 200px;
+  padding: 15px 20px;
+  height: 40px;
+  border-radius: 30px;
+  margin: auto;
+  background-color: rgb(0, 119, 197);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.InstagramDMListButtonInactive {
+  width: 100%;
+  max-width: 200px;
+  padding: 15px 20px;
+  height: 40px;
+  border-radius: 30px;
+  margin: auto;
+  background-color: #fff;
+  color: rgb(0, 119, 197);
+  border: none;
+  font-size: 16px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
 
 .InstagramDMList {
   display: flex;

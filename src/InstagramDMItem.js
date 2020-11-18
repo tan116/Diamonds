@@ -30,9 +30,12 @@ class InstagramDMItem extends Component {
     }
 
     renderDateTime() {
+      console.log('gmt time: ' + this.props.message.created_at);
+      var indiaTime = new Date(this.props.message.created_at).toLocaleString("en-US", {timeZone: "Asia/Kolkata"});
+      console.log('india time: ' + indiaTime);
       return (
         <div className={this.props.message.sender == this.props.loggedInAs ? 'messageDateTimeRight' : 'messageDateTimeLeft'}>
-          {this.getTimeFromDate(this.props.message.created_at)}
+          {indiaTime}
         </div>
       )
     }
